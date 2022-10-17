@@ -1,11 +1,28 @@
 #include <iostream>
 #include <vector>
+#include <cstdlib>
 
 using namespace std;
 
 int main()
 {
 
+    // 随机数
+    {   
+        const int seq_cnt = 6;
+        srand(3);
+        int seq_index = rand() % seq_cnt;
+        cout << "random number: " << seq_index <<endl;
+
+    }
+
+
+
+
+    // 指针数组的定义: 用来存放数组的指针
+    // 数组指针:用来指向数组的指针
+    // C++ 的语法就是那么的讨厌,总是整这些东西,让人费解
+    // 这个也是为了使得C++达到灵活,高效为设计的
     {
         vector<int> fibonacci, lucas, pell, triangular, square, pentagonal;
 
@@ -27,9 +44,12 @@ int main()
         for ( int ix = 0; ix < seq_cnt; ++ix)
         {
             current_vec = seq_addrs[ ix ];
+            // 指针的操作->
             cout << "current_vec size: " <<ix << "::" << current_vec->size() <<endl;
         }
 
+        
+        
     }
 
 
@@ -49,7 +69,7 @@ int main()
             *pi = 1024;
 
         // 复杂一: 指针的双重性质：
-        // 去内存地址 pi 和指针指向的对象值 *pi
+        // 取内存地址 pi 和指针指向的对象值 *pi
         cout << "ival: " << ival << endl
              << "&ival: " << &ival << endl;
 
@@ -66,10 +86,17 @@ int main()
         // cout << "*pi2: " << *pi2 << endl
         //     << "pi2: " << pi2 << endl;
         // 为了防止这个错误,可以在使用的指针的时候使用一个验证程序
+        // 这里有一个if的短路原则，从左往右执行，所以当第一个判断为fasle时，
+        // 其不会再进行判断了
         if (pi2 && *pi2 != 1024)
+        {
             *pi2 = 1024;
             cout << "*pi2: " << *pi2 << endl
                 << "pi2: " << pi2 << endl;
+        }
+
+
+
 
     }
 
