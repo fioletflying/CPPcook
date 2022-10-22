@@ -38,12 +38,12 @@ int main()
     // 递增和递减的方式: ++ --
     // 前置++ --: 表示该变量已经实现了运算,并获得了结果
     int tries = 0;
-    cout <<  "Are you read for try #" 
+    cout << "Are you read for try #" 
          << ++tries << "?\n";
     // 后置++ --: 表示该变量已经实现了运算,但是该结果并没有更新,需要过后才更新
-    int tries = 1;
+    int tries2 = 0;
     cout << "Are you read for try #"
-        << tries++ << "?\n";
+        << tries2++ << "?\n";
 
     // 关系运算符: 反馈结果是否为true 或者 false
     // == != < > <= >= 
@@ -60,16 +60,6 @@ int main()
     
     if (usr_rsp == 'N' and usr_more)
         usr_more = false;
-
-
-            
-    
-    
-
-    
-
-
-    
 
     return 0;
 }

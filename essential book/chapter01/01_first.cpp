@@ -13,6 +13,7 @@ int main()
     cout << '\n'
          << "Hello, "
          << user_name_sconde 
+         << "."
          << user_name_first
          << "... and goodbye!\n";
     

@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
     // swtch case
-
     char next_char = 'a';
     switch (next_char)
     {
