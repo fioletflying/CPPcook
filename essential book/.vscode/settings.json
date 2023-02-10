@@ -3,6 +3,8 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "complex": "cpp",
-        "string": "cpp"
-    }
+        "string": "cpp",
+        "type_traits": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
