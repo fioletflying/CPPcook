@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/data/study/cpp/cppcook/CPPcook/essential_book/chapter04/05_static.cpp
+include/Triangular.hpp
+/data/study/cpp/cppcook/CPPcook/essential_book/chapter04/include/Triangular.hpp
+iostream
+-
+
+/data/study/cpp/cppcook/CPPcook/essential_book/chapter04/Triangular.cpp
+include/Triangular.hpp
+/data/study/cpp/cppcook/CPPcook/essential_book/chapter04/include/Triangular.hpp
+
+/data/study/cpp/cppcook/CPPcook/essential_book/chapter04/include/Triangular.hpp
+vector
+-
+iostream
+-
+algorithm
+-
+
