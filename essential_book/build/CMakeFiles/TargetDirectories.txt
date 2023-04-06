@@ -1,3 +1,5 @@
+/data/study/cpp/cppcook/CPPcook/essential_book/build/CMakeFiles/package_source.dir
 /data/study/cpp/cppcook/CPPcook/essential_book/build/CMakeFiles/rebuild_cache.dir
+/data/study/cpp/cppcook/CPPcook/essential_book/build/CMakeFiles/package.dir
 /data/study/cpp/cppcook/CPPcook/essential_book/build/CMakeFiles/edit_cache.dir
 /data/study/cpp/cppcook/CPPcook/essential_book/build/CMakeFiles/my_cmake_exe.dir
