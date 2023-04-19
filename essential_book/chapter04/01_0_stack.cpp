@@ -1,4 +1,6 @@
-#include "01_0_stack.hpp"
+#include "include/01_0_stack.hpp"
+
+using namespace std;
 
 inline bool Stack::empty()
 {
@@ -38,4 +40,11 @@ bool Stack::push( const string &elem)
 
     _stack.push_back(elem);
     return true;
+}
+
+
+
+int main()
+{
+    cout << "staack.cpp" << endl;
 }
