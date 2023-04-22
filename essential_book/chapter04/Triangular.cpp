@@ -1,4 +1,4 @@
-#include"include/Triangular.hpp"
+#include"incleude/Triangular.hpp"
 
 
 vector<int>Triangular::_elems;

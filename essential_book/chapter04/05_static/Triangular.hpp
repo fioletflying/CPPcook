@@ -3,6 +3,7 @@
 
 #include<vector>
 #include<iostream>
+using namespace std;
 
 class Triangular
 {
@@ -16,16 +17,21 @@ public:
 public:
     int length() const { return _length;}
     int beg_pos() const { return _beg_pos;}
-    int elem( int pos ) const;
+    int elem( int ) const;
 
     bool next( int &val );
     void next_reset() {_next = _beg_pos - 1;}
-    
+
+public:
+    static bool is_elem( int value );
+    static void gen_elements( int length );
+    static void gen_elems_to_value( int value);
+    static void display();
 
 private:
     int _length, _beg_pos, _next;
-
-
+    static vector<int> _elems;
+    static int _max_elems;
 
 };
 
