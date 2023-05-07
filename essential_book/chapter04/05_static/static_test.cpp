@@ -2,7 +2,7 @@
 #include"Triangular.hpp"
 using namespace std;
 
-int main()
+int main2()
 {
     char ch;
     bool more = true;
