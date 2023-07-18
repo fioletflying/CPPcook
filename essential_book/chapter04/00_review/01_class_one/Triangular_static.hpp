@@ -97,7 +97,6 @@ bool Triangular_static::is_elem(int value)
 }
 
 
-
 int Triangular_static::get_elem(int pos) const
 {
     if( pos > 0 && pos < _elems.size())
