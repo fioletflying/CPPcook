@@ -48,13 +48,8 @@ int main()
         }
         cout << endl;
     }  
-    
-    
-
-
-   
-
 
     cout << "welcome to algorithm world!" << endl;
     return 0;
+    
 }
