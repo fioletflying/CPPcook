@@ -820,5 +820,7 @@ int main()
     CountDuplicates(arr1);
 
     cout << " buiding array !" << endl;
+
+    cout << " buiding array !" << endl;
     return 0;
 }
